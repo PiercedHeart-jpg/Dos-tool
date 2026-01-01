@@ -56,9 +56,15 @@ This is a Python-based networking script created **for learning and experimentat
 Some Linux terminals may not display ANSI colors correctly by default.
 
 
-To ensure proper color output, install **Colorama**:
+To ensure proper color output, install **Colorama** and maybe use venv for linux i do not know for sure
 
 ```bash
 pip install colorama
 
+## for venv windows
+python -m venv venv
+venv\Scripts\activate
 
+##Linux / Mac
+python3 -m venv venv
+source venv/bin/activate
